@@ -61,7 +61,7 @@ What would you like me to say: q
 The program will say:
 👉 "Bye bye friend"
 
-📁 Project Structure
+##📁 Project Structure
 robo-speaker-cli/
 │── robospeaker.py
 │── README.md
@@ -77,11 +77,11 @@ Make cross-platform version using pyttsx3
 
 Package as an executable (.exe)
 
-📜 License
+##📜 License
 
 This project is open-source and free to use for learning purposes.
 
-🙌 Contribution
+##🙌 Contribution
 
 Feel free to fork this project and improve it.
 Pull requests are welcome!
