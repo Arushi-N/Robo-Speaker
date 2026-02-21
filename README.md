@@ -4,6 +4,7 @@ A simple Python-based Command Line Text-to-Speech (TTS) application for Windows.
 
 Robo Speaker converts any text you type into speech using Windows PowerShell's built-in speech synthesis engine.
 
+Created by Arushi 💙
 
 ---
 
@@ -21,7 +22,7 @@ Robo Speaker converts any text you type into speech using Windows PowerShell's b
 
 - Python
 - Windows PowerShell
-- System.Speech (Built-in .NET Assembly)
+- System.Speech (.NET Assembly)
 
 ---
 
@@ -33,55 +34,83 @@ Robo Speaker converts any text you type into speech using Windows PowerShell's b
 
 ---
 
+## 📁 Project Structure
+
+    robo-speaker-cli/
+    │── robospeaker.py
+    │── README.md
+
+---
+
 ## ▶️ How to Run
 
-1. Clone the repository:
+### 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/YOUR-USERNAME/robo-speaker-cli.git
+```
 
-Navigate to the project folder:
+### 2️⃣ Navigate to the project folder
 
+```bash
 cd robo-speaker-cli
+```
 
-Run the program:
+### 3️⃣ Run the program
 
+```bash
 python robospeaker.py
-💻 Example Usage
+```
+
+---
+
+## 💻 Example Usage
+
+When you run the program:
+
+```bash
 Welcome to RoboSpeaker 1.1. Created by Arushi
 What would you like me to say: Hello world
+```
 
 The program will speak:
-👉 "Hello world"
 
-To exit:
+    Hello world
 
+To exit the program:
+
+```bash
 What would you like me to say: q
+```
 
 The program will say:
-👉 "Bye bye friend"
 
-##📁 Project Structure
-robo-speaker-cli/
-│── robospeaker.py
-│── README.md
-🎯 Future Improvements
+    Bye bye friend
 
-Add voice selection options
+---
 
-Add speech rate control
 
-Convert into GUI version (Tkinter)
+## 🎯 Future Improvements
 
-Make cross-platform version using pyttsx3
+- Add voice selection options
+- Add speech rate control
+- Convert into GUI version (Tkinter)
+- Make cross-platform version using `pyttsx3`
+- Package as an executable (.exe)
 
-Package as an executable (.exe)
+---
 
-##📜 License
+## 📜 License
 
 This project is open-source and free to use for learning purposes.
 
-##🙌 Contribution
+---
 
-Feel free to fork this project and improve it.
+## 🙌 Contribution
+
+Feel free to fork this project and improve it.  
 Pull requests are welcome!
+
+---
+
+⭐ If you like this project, consider giving it a star!
